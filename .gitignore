@@ -1,5 +1,14 @@
-# 🔒 私有仓库简报：含 u-king-mini（私有）的 commit，绝不能进公开仓库
+# 🔒 本仓库是【公开】仓库。以下内容含私有源，绝不能提交。
+# 规则详见 AGENTS.md「🔒 公私边界」和 book/README.md「素材来源」。
+
+# 私有仓库简报：含 u-king-mini（私有）的 commit
 docs/whats-new.local.md
+
+# 书的研究笔记：含从本机会话记录挖出的工作文件夹全量清单
+# （= 一张完整业务地图，含竞品调研/经营数据/风控项目，与 2Origin 故事无关）
+book/研究/
+
+# 兜底：任何 .local.md 一律不提交
 *.local.md
 
 node_modules/
