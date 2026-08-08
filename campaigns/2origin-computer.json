@@ -1,0 +1,38 @@
+{
+  "slug": "2origin-computer",
+  "title": "2Origin 本源计算架构 · AI 计算机开源了",
+  "subtitle": "我们不造模型，我们造一台 AI 计算机。模型可换、状态不丢、动作可迁移、经验会复利，7/7 Conformance 实测通过",
+  "primaryUrl": "https://github.com/dongsheng123132/2origin-computer",
+  "repos": [
+    {
+      "label": "2origin-computer（架构规范）",
+      "url": "https://github.com/dongsheng123132/2origin-computer"
+    },
+    {
+      "label": "2origin-harness（参考实现）",
+      "url": "https://github.com/dongsheng123132/2origin-harness"
+    },
+    {
+      "label": "2origin（本象协议）",
+      "url": "https://github.com/dongsheng123132/2origin"
+    },
+    {
+      "label": "U-King 装机管家（第一台参考整机）",
+      "url": "https://u-king.org"
+    },
+    {
+      "label": "U-King 下载",
+      "url": "https://u-claw.org.cn/download/U-King-Setup.exe"
+    }
+  ],
+  "points": [
+    "模型是 CPU，但 CPU 从来不等于一台计算机——2Origin 定义 AI 计算机该怎么组成",
+    "Conformance 7/7 通过：跨会话/跨 Harness/跨模型/动作可迁移/结果可验证/学习不自动永久化/可审计",
+    "参考实现零依赖纯 Node，28 测试全过，5 分钟跑通完整闭环",
+    "AI 会转学：把学历复制到另一台机器，新机器开学即续",
+    "越用越懂你这台机器：5 份学历 27 条事实，跨会话一个不丢",
+    "本象保存世界，本境保存成长，影核改变世界；北桥负责知，南桥负责行"
+  ],
+  "cta": "下载 U-King，装好你的 AI 全家桶 → https://u-claw.org.cn/download/U-King-Setup.exe",
+  "honesty": "首测 7/7 通过，但跨模型验证诚实标注过纠错过程——证据必须诚实，不为好看调状态"
+}
