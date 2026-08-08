@@ -46,9 +46,26 @@
 - 「我们不造模型，我们造一台 AI 计算机」：模型可换，状态不丢，动作可迁移，经验会复利
 - 金句：「本象保存世界，本境保存成长，影核改变世界」「北桥负责知，南桥负责行」
 
-### 数据背书（发前再核）
+### 数据背书（**发前必须重跑，禁止照抄本节**）
+
+> 数字会漂。本节只是「上次核的结果 + 怎么再核」。写进文章前**跑一遍命令拿当次真值**，
+> 跑出来是多少写多少。历史教训：本节曾长期写着「Conformance 7/7、harness 28 测试」，
+> 实测是 5 通过 / 0 失败 / **2 项 MANUAL**、34 个测试 —— 差点把没验证的东西说成验证过了。
+
+| 数字 | 核验命令 | 2026-08-08 实测 |
+|---|---|---|
+| Conformance | `bash conformance/run-tests.sh`（2origin-computer） | **PASS 5 · FAIL 0 · MANUAL 2** |
+| harness 测试 | `npm test`（2origin-harness，**单独跑**） | **34 tests · 34 pass** |
+| U-King 版本 | 看 `website/version.json` | 0.9.92 |
+
+**关于 MANUAL 2 项（写文章时不许含糊）**：C2（跨 harness）和 C3（跨模型）需要真实外部依赖，
+脚本标的是 `[MANUAL]` 不是 `[PASS]`。**不能写成「7/7 全部通过」**——正确说法是
+「5 项自动化验证通过，2 项需人工/外部依赖，我们没把它算成通过」。这句诚实本身就是营销点。
+
+**关于 harness 测试**：`npm test` 与 `conformance/run-tests.sh` **并发跑会互相污染共享状态**，
+出现假失败（实测并发时报过 3 fail / 2 fail，隔离重跑连续三次 34/34）。核数字时一次只跑一个。
+
 - 2Origin：github.com/dongsheng123132/2origin-computer · /2origin-harness · /2origin
-- Conformance 7/7；harness 28 测试；QUICKSTART 5 分钟跑通
 - U-King 下载：https://u-claw.org.cn/download/U-King-Setup.exe
 
 ## 流程
@@ -64,3 +81,20 @@
 - **不碰钱**：广告投放、充值等先问
 - **不发布**：只写草稿和 push 仓库，不提交博客/不跑 bomber（发布权在用户）
 - **诚实**：发出去的每个营销点必须真实可核验
+
+## 🔒 公私边界（最容易出事的一条，动管道前必读）
+
+**本仓库 `2origin-marketing` 是公开仓库。`u-king-mini` 是私有仓库。**
+
+私有仓库的 commit 标题里可能有内部 bug、未发布功能、密钥路径、客户信息。
+它们**绝不能自动流进本仓库**——push 一次就等于公开发布，删了也已被抓取。
+
+| 文件 | 内容 | 能否提交 |
+|---|---|---|
+| `docs/whats-new.md` | 只含公开仓库 | ✅ 可提交，Actions 自动生成 |
+| `docs/whats-new.local.md` | 含私有仓库 | ❌ 已在 `.gitignore`，**永不提交** |
+
+规则：
+1. **不要**给 Actions 加能读私有仓库的 PAT（`refresh.yml` 里已写明原因）。
+2. 引用私有仓库的素材时，**手写**成对外可讲的话，不要粘 commit 原文。
+3. 官网/公开页面上已有的信息（如页脚联系方式）不算泄露，但要**人工判断**，不走自动管道。

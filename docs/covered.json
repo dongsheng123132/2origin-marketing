@@ -1,0 +1,23 @@
+{
+  "_doc": "已写过草稿的 commit。refresh-notes.mjs 读这个文件，把已覆盖的 commit 标 ✅ 不再重复推荐。写完一篇草稿就往这里加一条。注意：只记 sha + 仓库 + 草稿文件名，不要粘私有仓库的 commit 原文（本仓库是公开的）。",
+  "covered": [
+    {
+      "sha": "e523380",
+      "repo": "2origin-computer",
+      "draft": "drafts/2026-08-08-conformance一条命令自测.md",
+      "date": "2026-08-08"
+    },
+    {
+      "sha": "6b1da9f",
+      "repo": "2origin-harness",
+      "draft": "drafts/2026-08-08-5分钟跑通AI计算机.md",
+      "date": "2026-08-08"
+    },
+    {
+      "sha": "c6b1b6e",
+      "repo": "u-king-mini",
+      "draft": "drafts/2026-08-08-uking官网意见反馈.md",
+      "date": "2026-08-08"
+    }
+  ]
+}

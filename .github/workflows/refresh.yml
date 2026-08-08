@@ -1,0 +1,46 @@
+name: refresh-marketing-notes
+
+# 每天在 GitHub 上自动扫描【公开】关联仓库的新 commit，刷新 docs/whats-new.md。
+# 不需要本机开着，不需要 AI，不需要任何额外密钥 —— 纯扫描。
+#
+# ⚠️ 只扫公开仓库（2origin / 2origin-computer / 2origin-harness）。
+#    私有仓库 u-king-mini 的 commit 不进这条管道，也不要为此加 PAT ——
+#    本仓库是公开的，私有 commit 标题一旦被扫进来就等于公开发布。
+#    私有仓库的素材在本机跑 `node refresh-notes.mjs` 看 docs/whats-new.local.md（不提交）。
+#
+# 写文章那一步仍由人/AI 触发（见 AGENTS.md），Actions 只保证「有什么可写」始终最新。
+
+on:
+  schedule:
+    - cron: '23 0 * * *'   # UTC 00:23 = 北京时间 08:23
+  workflow_dispatch:        # Actions 页面可手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh whats-new (public repos only)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node refresh-notes.mjs --remote
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "marketing-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if git diff --quiet -- docs/whats-new.md; then
+            echo "无变化，跳过提交"
+          else
+            git add docs/whats-new.md
+            git commit -m "chore(refresh): 刷新 whats-new ($(date -u +%Y-%m-%d))"
+            git push
+          fi
