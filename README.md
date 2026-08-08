@@ -36,4 +36,3 @@ kicker/             金句库（标题/引言直接用）
 
 - 2Origin 架构：github.com/dongsheng123132/2origin-computer
 - 参考实现：github.com/dongsheng123132/2origin-harness
-- 北极星（收入）：虾盘云新 API key + token 消耗

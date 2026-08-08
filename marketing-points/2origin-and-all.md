@@ -33,7 +33,7 @@
 - **单主力维护**：U-King 只有一个主力维护者，**bug 还很多，不少功能带测试味道**。
 - **探索中**：正在探索 **AI harness 工程**——致力于 AI 基础设施（LLM=CPU、AI 操作系统搭建中）。
 - **不宣称未实现**：发出去的每一个营销点必须真实可核验。凡涉及「成熟」「稳定」「强大」的措辞一律降调为「在探索」「还很不成熟」「欢迎一起拼」。
-- **欢迎联系**：对 AI 基础设施 / harness 工程感兴趣的人 → 邮箱 hefangsheng@gmail.com · 微信 hecare888（单主力，回复慢，见谅）。
+- **欢迎联系**：对 AI 基础设施 / harness 工程感兴趣的人 → 联系方式见官网 u-king.org 的意见反馈区（单主力，回复慢，见谅）。
 - 官网已体现：`#feedback` 意见反馈区（诚实声明 + 联系方式）。
 
 **金句（用户定）**：WorkBuddy 很好，像品牌机戴尔联想；**懂电脑的，都选组装机 u-king.org——因为你懂的**。
@@ -196,8 +196,10 @@
 
 **数据背书（2026-08-08 核，发前再核）**
 - GitHub：`dongsheng123132/2origin-computer`（PUBLIC）· `dongsheng123132/2origin-harness`（PUBLIC）· `dongsheng123132/2origin`（本象）
-- Conformance 7/7 通过（cross-session / cross-harness / cross-model / 动作可迁移 / 结果可验证 / 学习不自动永久化 / 可审计）
-- 2origin-harness：零依赖纯 Node，28 测试全过，QUICKSTART 5 分钟跑通
+- Conformance：**PASS 5 · FAIL 0 · MANUAL 2**（2026-08-08 实跑 `bash conformance/run-tests.sh`）。
+  通过的 5 项：跨会话 / 动作可迁移 / 结果可验证 / 学习不自动永久化 / 可审计。
+  **⚠️ 不许写成 7/7**——跨 Harness（C2）、跨模型（C3）需真实外部依赖，脚本标 `[MANUAL]` 不是 `[PASS]`。
+- 2origin-harness：零依赖纯 Node，**38 测试全过**（2026-08-08 实跑 `npm test`，须单独跑，与 conformance 并发会假失败），QUICKSTART 5 分钟跑通
 - 实测证据：全新会话自动加载学历报出任务标题；Codex 零追问续作；两个不同模型读同一状态零漂移
 
 **目标人群**：开发者、AI 工程师、对"AI 系统架构"感兴趣的独立开发者；CTA 引 U-King（它是第一台 2Origin 参考整机）。
