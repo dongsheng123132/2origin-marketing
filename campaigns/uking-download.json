@@ -1,0 +1,202 @@
+{
+  "slug": "uking-download",
+  "title": "U-King AI 装机管家 · 免费下载",
+  "subtitle": "对话式一键装好 Codex / Claude Code / OpenClaw / Hermes，国内直连，装完即用",
+  "primaryUrl": "https://u-king.org",
+  "repos": [
+    {
+      "label": "U-King 官网",
+      "url": "https://u-king.org"
+    },
+    {
+      "label": "Windows 安装包",
+      "url": "https://u-claw.org.cn/download/U-King-Setup.exe"
+    },
+    {
+      "label": "Windows 绿色版",
+      "url": "https://u-claw.org.cn/download/U-King.exe"
+    },
+    {
+      "label": "Mac 版",
+      "url": "https://u-claw.org.cn/download/U-King-Mac.dmg"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "region": "intl",
+      "priority": 3,
+      "how": "零营销语气，讲装机痛点 + 解决方案",
+      "submitUrl": "https://news.ycombinator.com/submitlink?u={url}&t={title}",
+      "title": "Show HN: U-King — install Codex/Claude Code/OpenClaw/Hermes in one conversation, China-reachable, no proxy",
+      "text": "Setting up Codex, Claude Code, OpenClaw and Hermes means wrestling four different installers, each with its own config, keys and driver dance. For people in China it's worse: most endpoints are unreachable without a proxy.\n\nI built U-King, a free desktop \"AI installer & workbench\" for Windows (and a Mac build): you tell it what you want in plain conversation, it installs the tools, configures a reachable model driver, and verifies the connection before telling you \"done\".\n\nHighlights:\n- One dialogue-based setup for Codex / Claude Code / OpenClaw / Hermes\n- Auto-configures model providers that work in China without a VPN\n- Built-in terminal with a first-run guide and six quick prompts (write a report, make a table, write code, find a bug…)\n- Usage meter with cost-per-day + saving tips, no hidden meters\n- Free, portable .exe available (no install needed for the green version)\n\nSite: https://u-king.org\nWindows: https://u-claw.org.cn/download/U-King.exe\nMac: https://u-claw.org.cn/download/U-King-Mac.dmg",
+      "tips": "HN 反自夸：强调「免费 + 装完先验证」。"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit (r/LocalLLaMA)",
+      "region": "intl",
+      "priority": 2,
+      "how": "发到 r/LocalLLaMA 或 r/ClaudeAI",
+      "submitUrl": "https://www.reddit.com/r/{sub}/submit?title={title}",
+      "title": "A free app that installs Codex, Claude Code, OpenClaw & Hermes through a conversation — including China-reachable config",
+      "text": "If you've ever helped a non-technical person install Claude Code or Codex, you know the pain: installers, PATH, API keys, model config, and if you're in China — nothing connects without a proxy.\n\nU-King is a free desktop app that does all of that through a conversation: tell it \"install Codex and Claude Code\", it handles it, configures a China-reachable model driver, and verifies the connection before reporting success. Also a workbench with a terminal, first-run guide, and a usage meter.\n\nFree. Windows + Mac. Green/portable .exe available. Site: https://u-king.org\nWindows: https://u-claw.org.cn/download/U-King.exe\nMac: https://u-claw.org.cn/download/U-King-Mac.dmg",
+      "tips": "把 {sub} 换成 LocalLLaMA。"
+    },
+    {
+      "id": "x",
+      "name": "X / Twitter",
+      "region": "intl",
+      "priority": 3,
+      "how": "URL 预填，280 硬限",
+      "submitUrl": "https://twitter.com/intent/tweet?text={text}",
+      "text": "Free Windows app that installs Codex + Claude Code + OpenClaw + Hermes in one conversation, configures a China-reachable driver, verifies the connection. No proxy needed. Also a workbench with terminal + usage meter. https://u-king.org"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "region": "intl",
+      "priority": 2,
+      "how": "面向「给团队推广 AI 工具的人」",
+      "submitUrl": "https://www.linkedin.com/feed/",
+      "text": "If your team is rolling out AI coding assistants to non-expert users, you know the real bottleneck isn't the model — it's the install.\n\nFour tools, four installers, four config stories, and if your users are in China: none of the endpoints connect without a proxy.\n\nI open-sourced U-King, a free desktop installer-and-workbench: users describe what they want in a conversation, U-King installs Codex / Claude Code / OpenClaw / Hermes, configures a reachable model driver, and verifies connectivity before reporting done. Built-in terminal, first-run guide, and a transparent usage meter.\n\nFree. Windows (green .exe available) + Mac.\nSite: https://u-king.org"
+    },
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "region": "intl",
+      "priority": 2,
+      "how": "「装机管家」类目",
+      "submitUrl": "https://www.producthunt.com/posts/new",
+      "title": "U-King — install all your AI coding CLIs in one conversation",
+      "text": "Hey PH 👋 Setting up Codex, Claude Code, OpenClaw and Hermes means four installers, four config stories, and for users in China: nothing connects without a proxy.\n\nU-King installs them all through a plain conversation, auto-configures a China-reachable model driver, and verifies the connection before reporting done. Free, with a built-in terminal, first-run guide, and usage meter.\n\nSite: https://u-king.org · Windows: https://u-claw.org.cn/download/U-King.exe · Mac: https://u-claw.org.cn/download/U-King-Mac.dmg"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "region": "intl",
+      "priority": 2,
+      "how": "URL+text 预填",
+      "submitUrl": "https://t.me/share/url?url={url}&text={text}",
+      "text": "U-King 免费 AI 装机管家：对话式一键装好 Codex / Claude Code / OpenClaw / Hermes，自动配国内直连驱动，装完实测连通。内置终端+新手引导+用量曲线。国内直连不用翻墙。https://u-king.org https://u-claw.org.cn/download/U-King.exe"
+    },
+    {
+      "id": "v2ex",
+      "name": "V2EX · 分享创造",
+      "region": "cn",
+      "priority": 3,
+      "how": "打开新帖页，复制正文",
+      "submitUrl": "https://www.v2ex.com/new",
+      "title": "U-King：免费 AI 装机管家，对话式一键装好 Codex/Claude Code，国内直连",
+      "text": "折腾过给小白装 Codex / Claude Code 的都知道有多痛：四个工具四个安装器、PATH、Key、模型配置，国内端点还全连不上。\n\n做了个免费的「AI 装机管家 + 工作台」U-King：用对话告诉它要装什么，它帮你装好 Codex / Claude Code / OpenClaw / Hermes，自动配好国内能连的模型驱动，**装完先实测连通再跟你说好了**。\n\n- 对话式装机，不用翻墙，国内直连\n- 内置终端，首次打开有新手引导 + 六个快捷词（写周报/做表格/写代码/找 Bug…）\n- 用量曲线 + 省钱建议，烧钱速度看得见\n- 免费，绿色版免安装，也有 Mac 版\n\n官网：https://u-king.org\n下载：https://u-claw.org.cn/download/U-King.exe\nMac：https://u-claw.org.cn/download/U-King-Mac.dmg",
+      "tips": "V2EX 是技术向，突出「装完先验证」这个工程诚实点。"
+    },
+    {
+      "id": "juejin",
+      "name": "掘金",
+      "region": "cn",
+      "priority": 2,
+      "how": "打开草稿编辑器",
+      "submitUrl": "https://juejin.cn/editor/drafts/new",
+      "title": "装好全部 AI，一个软件就够了：U-King 对话式装机",
+      "text": "AI 工具装机的痛点，做开发的人都懂：Codex、Claude Code、OpenClaw、Hermes，四个工具四个安装流程，还各有各的 Key 和模型配置。\n\nU-King 把这件事做成了「对话式装机」：告诉它你要什么，它装好、配好国内直连的模型驱动、**实测连通后才提示完成**。装完自带终端工作台，新手引导 + 六个快捷词，用量曲线 + 省钱建议。\n\n国内直连，不用翻墙，免费下载。\n\n国内直连，免费下载 → https://u-claw.org.cn/download/U-King-Setup.exe"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎专栏",
+      "region": "cn",
+      "priority": 3,
+      "how": "打开写作页",
+      "submitUrl": "https://zhuanlan.zhihu.com/write",
+      "title": "装好全部 AI，一个软件就够了",
+      "text": "# 装好全部 AI，一个软件就够了\n\n在国内给同事、给客户装 Codex / Claude Code，最痛的不是模型不行，是**装机**。\n\n四个工具四个安装器，PATH 要配、Key 要填、模型驱动要对得上，而且默认端点在国内全连不上——不翻墙就没法用。\n\n## U-King：对话式装机管家\n\nU-King 是一个免费的 Windows/Mac 桌面工具（也有免安装的绿色版），核心就一件事：**用对话把 AI 工具装好、配好、验证好**。\n\n- 对话式安装 Codex / Claude Code / OpenClaw / Hermes\n- 自动配置国内可直连的模型驱动，**装完先实测连通，再提示「装好了」**\n- 内置终端 + 首次引导卡 + 六个快捷词（写周报 / 做表格 / 写代码 / 找 Bug / 翻译文档 / 总结会议）\n- 用量曲线：本地记 Token 水电表，按天读数，附省钱建议\n\n## 为什么值得试\n\n装机这件事，应该像「装一个 App」一样简单。U-King 把装 AI 工具拉平到了这个门槛：不用翻墙、不用填 Key、不用读教程，对话里说完就装。\n\n免费下载：https://u-claw.org.cn/download/U-King.exe（Windows 绿色版）· https://u-claw.org.cn/download/U-King-Mac.dmg（Mac）\n官网：https://u-king.org"
+    },
+    {
+      "id": "sspai",
+      "name": "少数派",
+      "region": "cn",
+      "priority": 2,
+      "how": "偏工具向，可配截图",
+      "submitUrl": "https://sspai.com/write",
+      "title": "不用翻墙配 Key，U-King 对话式装好全部 AI 工具",
+      "text": "AI 工具装机的痛点，做开发的人都懂：Codex、Claude Code、OpenClaw、Hermes，四个工具四个安装流程，还各有各的 Key 和模型配置。\n\nU-King 把这件事做成了「对话式装机」：告诉它你要什么，它装好、配好国内直连的模型驱动、**实测连通后才提示完成**。装完自带终端工作台，新手引导 + 六个快捷词，用量曲线 + 省钱建议。\n\n国内直连，不用翻墙，免费下载。\n\n国内直连，免费下载 → https://u-claw.org.cn/download/U-King-Setup.exe"
+    },
+    {
+      "id": "jike",
+      "name": "即刻",
+      "region": "cn",
+      "priority": 1,
+      "how": "短文案，链接开头",
+      "submitUrl": "https://web.okjike.com/",
+      "text": "免费 AI 装机管家 U-King：对话式一键装好 Codex/Claude Code/OpenClaw/Hermes，自动配好国内直连驱动，装完实测连通才提示完成。不用翻墙，内置终端+新手引导+用量曲线。绿色版免安装，也有 Mac 版。官网 https://u-king.org 下载 https://u-claw.org.cn/download/U-King.exe #AI##装机##免费软件# 官网 https://u-king.org"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "region": "cn",
+      "priority": 2,
+      "how": "URL+text 预填",
+      "submitUrl": "https://service.weibo.com/share/share.php?title={text}&url={rawurl}",
+      "text": "免费 AI 装机管家 U-King：对话式一键装好 Codex/Claude Code/OpenClaw/Hermes，自动配好国内直连驱动，装完实测连通才提示完成。不用翻墙，内置终端+新手引导+用量曲线。绿色版免安装，也有 Mac 版。官网 https://u-king.org 下载 https://u-claw.org.cn/download/U-King.exe #AI##装机##免费软件#"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "region": "cn",
+      "priority": 3,
+      "how": "标题 + 正文 + 封面图",
+      "submitUrl": "https://creator.xiaohongshu.com/publish/publish",
+      "title": "还在熬夜装 AI 工具？U-King 免费一键搞定",
+      "text": "还在为装 AI 工具熬夜？😭\n\n装 Codex、Claude Code、OpenClaw、Hermes，四个工具四个安装器，还有 Key、模型配置、翻墙……\n\nU-King 免费帮你全搞定👇\n🤖 对话式装机：说一句「装 Codex」，它装好并配好国内直连\n✅ 装完先实测连通，再告诉你成功了\n🖥 自带终端 + 新手引导 + 写周报/做表格六个快捷词\n📊 用量曲线 + 省钱建议，烧钱看得见\n💚 绿色版免安装，也有 Mac 版\n\n国内直连 · 不用翻墙 · 免费\n下载→https://u-claw.org.cn/download/U-King-Setup.exe\n\n#AI #程序员 #装机 #效率工具 #免费软件",
+      "tips": "配一张封面图：U-King 装机界面截图或「国内直连」大字图。"
+    },
+    {
+      "id": "moments",
+      "name": "微信朋友圈",
+      "region": "cn",
+      "priority": 2,
+      "how": "需手动手持发",
+      "submitUrl": "weixin://",
+      "text": "装 AI 工具还得翻墙配 Key？不用了。U-King 对话式一键装好 Codex/Claude Code/OpenClaw/Hermes，自动配国内直连，装完实测连通才提示完成。免费，绿色版免安装。https://u-king.org https://u-claw.org.cn/download/U-King.exe"
+    },
+    {
+      "id": "mp",
+      "name": "微信公众号",
+      "region": "cn",
+      "priority": 3,
+      "how": "公众号后台新建",
+      "submitUrl": "https://mp.weixin.qq.com/",
+      "title": "装好全部 AI，一个软件就够了",
+      "text": "装 AI 工具最痛的不是模型不行，是装机：四个工具四个安装器，翻墙、Key、模型配置……U-King 把这件事做成「对话式装机」——告诉它要装什么，它装好、配好国内直连驱动、实测连通后提示完成。内置终端+新手引导+用量曲线，免费下载。官网 u-king.org，下载 u-claw.org.cn/download/U-King-Setup.exe"
+    },
+    {
+      "id": "shipinhao",
+      "name": "视频号",
+      "region": "cn",
+      "priority": 1,
+      "how": "短视频口播稿",
+      "submitUrl": "https://channels.weixin.qq.com/platform/post/create",
+      "text": "装 AI 工具还要翻墙配 Key？一个软件全搞定。U-King 对话式装机，国内直连，免费下载。#AI #装机 #效率工具"
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "region": "cn",
+      "priority": 1,
+      "how": "短视频口播稿",
+      "submitUrl": "https://creator.douyin.com/",
+      "text": "以后装 Codex 和 Claude Code，一个软件就够了。U-King 对话式一键装好全部 AI 工具，自动配国内直连，装完实测连通。免费，绿色免安装。u-king.org 官网下载。#AI #编程 #效率工具"
+    },
+    {
+      "id": "bilibili",
+      "name": "Bilibili 专栏",
+      "region": "cn",
+      "priority": 2,
+      "how": "专栏长文",
+      "submitUrl": "https://member.bilibili.com/platform/upload/text/edit",
+      "title": "装好全部 AI，一个软件就够了",
+      "text": "【装好全部 AI，一个软件就够了】U-King 免费 AI 装机管家：对话式一键装好 Codex/Claude Code/OpenClaw/Hermes，自动配国内直连驱动，装完实测连通。内置终端+新手引导+用量曲线。不用翻墙，免费下载。https://u-king.org https://u-claw.org.cn/download/U-King.exe"
+    }
+  ]
+}
