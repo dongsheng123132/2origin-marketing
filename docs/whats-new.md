@@ -1,31 +1,28 @@
-# What's New · 2026-08-08
+# What's New · 2026-08-09
 
-> 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
+> 数据源：本机 git，**仅公开仓库**　✅=已写过草稿　🚀=可写
 
 ## 2origin-computer（架构规范/Conformance）
-- 🚀 `fb513bc` Add RFC-0006: Northbridge standard interface + Southbridge trust model
-- 🚀 `f51f8b0` RFC-0005 §6: clarify benjing task-layer vs environment-layer split
-- 🚀 `16ff94d` Add RFC-0005: Benjing persistent state v0.2
+- ✅ `7a2fc29` C10: stronger controls (summary, rag) — result survives; two-hop probe retracted
+- 🚀 `f329472` Conformance C10 + retract C9's conclusion
+- 🚀 `6089d63` Conformance C9: continuation efficiency (2Origin vs traditional)
 
 ## 2origin-harness（参考实现/测试）
-- 🚀 `6b01c6f` Northbridge standard interface + Southbridge trust model
-- 🚀 `118fa17` Add session hooks: compile bundle on start, reconcile content_hash on end
-- ✅ `6b1da9f` Add English QUICKSTART — 5-minute walkthrough of the v0.2 loop
+- ✅ `7931f50` README: lead with the benchmark, limits and scorer bugs included
+- ✅ `b490d9c` ShadowWork Bench spec 0.3: strong controls (summary, rag) + retract the two-hop probe
+- ✅ `0831752` Bench v0.3: add summary + RAG arms, pin the corpus, first live run
 
 ## 2origin（本象协议）
-- 🚀 `8d2f06c` chore: trigger Vercel deployment for 2origin.org (website/ static site)
-- 🚀 `ce3533d` Merge pull request #1 from dongsheng123132/xlsx-dialect
-- 🚀 `967a2ec` vercel.json：Root Directory=website，让 Vercel 连接仓库时自动识别纯静态站
+- 🚀 `97614d7` 帧与差分（保留模式 v0.3）：每轮只发变了的部分，实测省 79.7%
+- 🚀 `f85cdaa` 上下文编译器 v0.2：相机 + 三档 LOD + 预算斜坡，投影拆成方言着色器
+- 🚀 `69d2d07` world state: Vercel 部署进展 + 看板登记（seq 619-628 补录）
 
 ## 📝 可写的新素材（未写过草稿的）
-- 🚀 **2origin-computer** `fb513bc` Add RFC-0006: Northbridge standard interface + Southbridge trust model
-- 🚀 **2origin-computer** `f51f8b0` RFC-0005 §6: clarify benjing task-layer vs environment-layer split
-- 🚀 **2origin-computer** `16ff94d` Add RFC-0005: Benjing persistent state v0.2
-- 🚀 **2origin-harness** `6b01c6f` Northbridge standard interface + Southbridge trust model
-- 🚀 **2origin-harness** `118fa17` Add session hooks: compile bundle on start, reconcile content_hash on end
-- 🚀 **2origin** `8d2f06c` chore: trigger Vercel deployment for 2origin.org (website/ static site)
-- 🚀 **2origin** `ce3533d` Merge pull request #1 from dongsheng123132/xlsx-dialect
-- 🚀 **2origin** `967a2ec` vercel.json：Root Directory=website，让 Vercel 连接仓库时自动识别纯静态站
+- 🚀 **2origin-computer** `f329472` Conformance C10 + retract C9's conclusion
+- 🚀 **2origin-computer** `6089d63` Conformance C9: continuation efficiency (2Origin vs traditional)
+- 🚀 **2origin** `97614d7` 帧与差分（保留模式 v0.3）：每轮只发变了的部分，实测省 79.7%
+- 🚀 **2origin** `f85cdaa` 上下文编译器 v0.2：相机 + 三档 LOD + 预算斜坡，投影拆成方言着色器
+- 🚀 **2origin** `69d2d07` world state: Vercel 部署进展 + 看板登记（seq 619-628 补录）
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-08 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-09 · 写稿规则见 AGENTS.md_
