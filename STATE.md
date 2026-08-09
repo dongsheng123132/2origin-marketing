@@ -41,7 +41,9 @@
 
 - Conformance：**PASS 9 · FAIL 0 · MANUAL 2** —— 仍不是「全部通过」，那 2 项是 `[MANUAL]`（2026-08-09 重跑；C8/C9/C10 落地后从 5 涨到 9）
 - harness：~~34~~ → ~~47~~ → **62 tests · 62 pass**（2026-08-09 重跑，隔离跑；与 conformance 并发会假失败）
-  - 其中 bugscope 专项 **7 条**（A1×3 A2×1 A3×1 A4×2），**A5 零测试**
+  - 其中 bugscope 专项 **11 条**（A1×3 A2×1 A3×1 A4×4 A5×2）—— **2026-08-09 重跑：A5 已有实现+2 条测试，
+    昨日「A5 零测试」已失效**；`lib/bugscope.js` 五条公理全部有实现
+  - ⚠️ **公开文档 `philosophy/bugscope.md` 第 18、69 行仍写「三条公理」，正文实为五条**（A5 在自己文档里命中）
 - 学历 facts：**96 条 · verified=true 96 · refuted 0 · 带 actor 0**（遍历 `ShadowOS/demo/*/task.origin.json`）
 - U-King：0.9.92
 
