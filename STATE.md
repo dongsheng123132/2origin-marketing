@@ -44,7 +44,10 @@
   - 其中 bugscope 专项 **11 条**（A1×3 A2×1 A3×1 A4×4 A5×2）—— **2026-08-09 重跑：A5 已有实现+2 条测试，
     昨日「A5 零测试」已失效**；`lib/bugscope.js` 五条公理全部有实现
   - ⚠️ **公开文档 `philosophy/bugscope.md` 第 18、69 行仍写「三条公理」，正文实为五条**（A5 在自己文档里命中）
-- 学历 facts：**96 条 · verified=true 96 · refuted 0 · 带 actor 0**（遍历 `ShadowOS/demo/*/task.origin.json`）
+- 学历 facts：**204 条 · verified=true 204 · refuted 0 · 带 actor 0**（11 份学历，2026-08-09 重跑）
+  - 两日内 96 → 114 → **204**，**refuted 恒为 0**。机制见 `2origin-harness/lib/state.js:126`：
+    `addFact(state, claim, source, verified = true)` —— **默认参数就是 true**，且 schema 无 `refuted_by`
+  - 对照组（同一文件 :137/:161）：`learnings` 有 `status` 状态机 candidate→verified→deprecated
 - U-King：0.9.92
 
 ## 待办（下次接手从这里开始）
