@@ -45,7 +45,11 @@
 - harness：~~34~~ → ~~47~~ → **62 tests · 62 pass**（2026-08-09 重跑，隔离跑；与 conformance 并发会假失败）
   - 其中 bugscope 专项 **11 条**（A1×3 A2×1 A3×1 A4×4 A5×2）—— **2026-08-09 重跑：A5 已有实现+2 条测试，
     昨日「A5 零测试」已失效**；`lib/bugscope.js` 五条公理全部有实现
-  - ⚠️ **公开文档 `philosophy/bugscope.md` 第 18、69 行仍写「三条公理」，正文实为五条**（A5 在自己文档里命中）
+  - ⚠️ **2026-08-10 复核：公理已增至六条（新增 A6），但三处 A5 实例仍在**——
+    ① `philosophy/bugscope.md:24` 标题已改「六条公理」，**但 :96 仍写「三条公理」**（漏改）；
+    ② **A6 零实现零测试**（`grep -c A6 lib/bugscope.js` = 0，测试同为 0）；
+    ③ **修复未 push**：`git show origin/master:philosophy/bugscope.md | grep -c 六条公理` = **0**，公网仍是旧文
+    → `press/发现/2026-08-09-透视镜照自己.md` 已按此重写，**初稿的「五条」说法已作废**
 - 学历 facts：**204 条 · verified=true 204 · refuted 0 · 带 actor 0**（11 份学历，2026-08-09 重跑）
   - 两日内 96 → 114 → **204**，**refuted 恒为 0**。机制见 `2origin-harness/lib/state.js:126`：
     `addFact(state, claim, source, verified = true)` —— **默认参数就是 true**，且 schema 无 `refuted_by`

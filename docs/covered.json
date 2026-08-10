@@ -42,6 +42,12 @@
       "repo": "2origin-harness",
       "draft": "drafts/2026-08-09-加强对照组后结论仍成立.md",
       "date": "2026-08-09"
+    },
+    {
+      "sha": "0015ba1",
+      "repo": "2origin-harness",
+      "draft": "drafts/2026-08-10-基准测试把自己算了进去.md",
+      "date": "2026-08-10"
     }
   ]
 }
