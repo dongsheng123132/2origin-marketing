@@ -50,7 +50,10 @@
     ② **A6 零实现零测试**（`grep -c A6 lib/bugscope.js` = 0，测试同为 0）；
     ③ **修复未 push**：`git show origin/master:philosophy/bugscope.md | grep -c 六条公理` = **0**，公网仍是旧文
     → `press/发现/2026-08-09-透视镜照自己.md` 已按此重写，**初稿的「五条」说法已作废**
-- 学历 facts：**204 条 · verified=true 204 · refuted 0 · 带 actor 0**（11 份学历，2026-08-09 重跑）
+- 学历 facts：~~204/204/refuted 0~~ → **386 条 · verified=true 371 · verified=false 15 · 带 actor 133**（17 份，2026-08-10 重跑）
+  - ★ **「否」首次出现**（0→15），但**仍无 `refuted_by`**：那 15 条字段只有 claim/verified/when，**连 source 都没有**
+  - ★ **新查出不对称**：`addFact` 中 `if (verified) { 检查 source }` —— **立「是」要证据，立「否」不要**
+  - ★ **律⑤代谢昨日零命中 → 今日已实现**（`lib/state.js:178` autoDeprecate 保鲜期 + refreshFact）
   - 两日内 96 → 114 → **204**，**refuted 恒为 0**。机制见 `2origin-harness/lib/state.js:126`：
     `addFact(state, claim, source, verified = true)` —— **默认参数就是 true**，且 schema 无 `refuted_by`
   - 对照组（同一文件 :137/:161）：`learnings` 有 `status` 状态机 candidate→verified→deprecated
