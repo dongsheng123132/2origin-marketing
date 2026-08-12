@@ -1,4 +1,4 @@
-# What's New · 2026-08-11
+# What's New · 2026-08-12
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -28,4 +28,4 @@
 - 🚀 **2origin** `967a2ec` vercel.json：Root Directory=website，让 Vercel 连接仓库时自动识别纯静态站
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-11 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-12 · 写稿规则见 AGENTS.md_
