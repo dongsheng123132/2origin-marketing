@@ -1,11 +1,11 @@
 # What's New · 2026-08-13
 
-> 数据源：本机 git，**仅公开仓库**　✅=已写过草稿　🚀=可写
+> 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
 ## 2origin-computer（架构规范/Conformance）
-- 🚀 `073d76b` 命名裁决 v0.3：一物两名清查 + 英文技术名统一
-- 🚀 `88b4964` 裁决 v0.2：本历/本境各归各位，名字也要走 candidate → verified
-- 🚀 `317185a` 命名裁决：一名两物 —— 取象(Sensor) 与 本象(Origin IR) 分开
+- 🚀 `22ce4da` Merge pull request #1 from dongsheng123132/agent/long-term-ai-challenge
+- 🚀 `82a3a98` launch long-term AI computer challenge
+- 🚀 `c974854` conformance 加 C11 外部对照：挡住「对照组全是自己写的」复发
 
 ## 2origin-harness（参考实现/测试）
 - 🚀 `a927b37` ShadowWork Bench spec 0.4：接第三方对照 mem0，并当场改写自己的结论
@@ -13,19 +13,19 @@
 - 🚀 `2665b01` README: one word per concept, and admit the observer is missing
 
 ## 2origin（本象协议）
-- 🚀 `c51321d` 记录 A2 旗舰模型消融试跑
-- 🚀 `37472b9` 实现 ShadowBench-W prompt-only 状态消融臂
-- 🚀 `8e7c443` 修复法律方言真实裁定书回归
+- 🚀 `177fe56` 合并 video-dialect → main：让公开的默认分支能自证论文
+- 🚀 `4ef51a2` 摘要改口径：跨模型稳健性用 M 级数字，并把「还没做的消融」写进摘要
+- 🚀 `32c2169` 重建提交包：§7/§7.1 补进 .tex，构建说明按实测更正
 
 ## 📝 可写的新素材（未写过草稿的）
-- 🚀 **2origin-computer** `073d76b` 命名裁决 v0.3：一物两名清查 + 英文技术名统一
-- 🚀 **2origin-computer** `88b4964` 裁决 v0.2：本历/本境各归各位，名字也要走 candidate → verified
-- 🚀 **2origin-computer** `317185a` 命名裁决：一名两物 —— 取象(Sensor) 与 本象(Origin IR) 分开
+- 🚀 **2origin-computer** `22ce4da` Merge pull request #1 from dongsheng123132/agent/long-term-ai-challenge
+- 🚀 **2origin-computer** `82a3a98` launch long-term AI computer challenge
+- 🚀 **2origin-computer** `c974854` conformance 加 C11 外部对照：挡住「对照组全是自己写的」复发
 - 🚀 **2origin-harness** `a927b37` ShadowWork Bench spec 0.4：接第三方对照 mem0，并当场改写自己的结论
 - 🚀 **2origin-harness** `2665b01` README: one word per concept, and admit the observer is missing
-- 🚀 **2origin** `c51321d` 记录 A2 旗舰模型消融试跑
-- 🚀 **2origin** `37472b9` 实现 ShadowBench-W prompt-only 状态消融臂
-- 🚀 **2origin** `8e7c443` 修复法律方言真实裁定书回归
+- 🚀 **2origin** `177fe56` 合并 video-dialect → main：让公开的默认分支能自证论文
+- 🚀 **2origin** `4ef51a2` 摘要改口径：跨模型稳健性用 M 级数字，并把「还没做的消融」写进摘要
+- 🚀 **2origin** `32c2169` 重建提交包：§7/§7.1 补进 .tex，构建说明按实测更正
 
 ---
 _由 refresh-notes.mjs 生成 · 2026-08-13 · 写稿规则见 AGENTS.md_
