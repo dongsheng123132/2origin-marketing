@@ -48,6 +48,18 @@
       "repo": "2origin-harness",
       "draft": "drafts/2026-08-10-基准测试把自己算了进去.md",
       "date": "2026-08-10"
+    },
+    {
+      "sha": "596d389",
+      "repo": "2origin",
+      "draft": "drafts/2026-08-15-机器人语义状态首测.md",
+      "date": "2026-08-15"
+    },
+    {
+      "sha": "6c12dfc",
+      "repo": "2origin",
+      "draft": "drafts/2026-08-15-机器人语义状态首测.md",
+      "date": "2026-08-15"
     }
   ]
 }
