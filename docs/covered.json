@@ -60,6 +60,42 @@
       "repo": "2origin",
       "draft": "drafts/2026-08-15-机器人语义状态首测.md",
       "date": "2026-08-15"
+    },
+    {
+      "sha": "a927b37",
+      "repo": "2origin-harness",
+      "draft": "drafts/2026-08-10-第三方对照改写了我们的结论.md",
+      "date": "2026-08-10"
+    },
+    {
+      "sha": "2665b01",
+      "repo": "2origin-harness",
+      "draft": "drafts/2026-08-12-五个部件被判未验证.md",
+      "date": "2026-08-12"
+    },
+    {
+      "sha": "88b4964",
+      "repo": "2origin-computer",
+      "draft": "drafts/2026-08-12-五个部件被判未验证.md",
+      "date": "2026-08-12"
+    },
+    {
+      "sha": "317185a",
+      "repo": "2origin-computer",
+      "draft": "drafts/2026-08-12-五个部件被判未验证.md",
+      "date": "2026-08-12"
+    },
+    {
+      "sha": "8662db3",
+      "repo": "2origin",
+      "draft": "drafts/2026-08-14-对照臂赢了.md",
+      "date": "2026-08-14"
+    },
+    {
+      "sha": "d8f1eb8",
+      "repo": "2origin",
+      "draft": "drafts/2026-08-14-只有作者能算出的p值.md",
+      "date": "2026-08-14"
     }
   ]
 }
