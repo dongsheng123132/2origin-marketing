@@ -1,4 +1,4 @@
-# What's New · 2026-08-20
+# What's New · 2026-08-21
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -25,4 +25,4 @@
 - 🚀 **2origin** `964f0fb` 合并：论文 v0.4 送审前校验（精确 p 值 + 表格重算脚本）
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-20 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-21 · 写稿规则见 AGENTS.md_
