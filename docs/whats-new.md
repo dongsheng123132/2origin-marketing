@@ -1,4 +1,4 @@
-# What's New · 2026-08-25
+# What's New · 2026-08-26
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -25,4 +25,4 @@
 - 🚀 **2origin** `b68f4c1` 部署配置修复：vercel.json 去掉非法 rootDirectory 字段（构建改由项目设置承接），website 部署级静态配置，忽略 .vercel/.env.local
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-25 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-26 · 写稿规则见 AGENTS.md_
