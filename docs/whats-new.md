@@ -1,4 +1,4 @@
-# What's New · 2026-08-26
+# What's New · 2026-08-27
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -8,21 +8,24 @@
 - ✅ `88b4964` 裁决 v0.2：本历/本境各归各位，名字也要走 candidate → verified
 
 ## 2origin-harness（参考实现/测试）
-- ✅ `a927b37` ShadowWork Bench spec 0.4：接第三方对照 mem0，并当场改写自己的结论
-- ✅ `0015ba1` Private-first: stop committing session-derived bench inputs
-- ✅ `2665b01` README: one word per concept, and admit the observer is missing
+- 🚀 `f80f7ca` REPORT: 状态更新为 v6 GO（六轮终审记录）
+- 🚀 `fcd5992` C1 v6：gpt 五轮整改——root 隔离断言改为执行前基线快照(存在性+Buffer.equals)
+- 🚀 `3536dfe` C1 v5：gpt 四轮整改——--root 端到端生效(workRoot 判定+南桥实例)+普通分支 exit 条件(done+audit_ok)+E2E 加 root 隔离断言
 
 ## 2origin（本象协议）
-- 🚀 `33a3ec4` 复赛包同步：桥接包纳入身份锚适配层（identity-anchors/stub-idp/verify-identity-anchors 17条判据）+ README 更新为四套判据（对应 ccaaa0d）
-- 🚀 `8af50bd` 复赛承诺⑥：AgentTeams 桥接包随公开仓发布（判据套件 33+13 条可复跑，LICENSE MIT；与提交 zip 内容一致）
-- 🚀 `b68f4c1` 部署配置修复：vercel.json 去掉非法 rootDirectory 字段（构建改由项目设置承接），website 部署级静态配置，忽略 .vercel/.env.local
+- 🚀 `dc185a0` 推广资产落地：90秒终端实录GIF(0.3MB真实输出,白底深蓝)嵌入README + 生成脚本入scripts/ + V2EX首发草稿
+- 🚀 `f538a25` README 快速上手补 npm 安装方式（benxiang-origin@0.1.0 已发布）
+- 🚀 `2d69c68` bin 改名：origin→benxiang、origin-mcp→benxiang-mcp（避开 npm 已有 origin 包的全局命令冲突；gpt+pi 会审一致），帮助文本同步
 
 ## 📝 可写的新素材（未写过草稿的）
 - 🚀 **2origin-computer** `0c5c1fa` Merge remote-tracking branch 'origin/bugscope-a6' into _test-merge
 - 🚀 **2origin-computer** `073d76b` 命名裁决 v0.3：一物两名清查 + 英文技术名统一
-- 🚀 **2origin** `33a3ec4` 复赛包同步：桥接包纳入身份锚适配层（identity-anchors/stub-idp/verify-identity-anchors 17条判据）+ README 更新为四套判据（对应 ccaaa0d）
-- 🚀 **2origin** `8af50bd` 复赛承诺⑥：AgentTeams 桥接包随公开仓发布（判据套件 33+13 条可复跑，LICENSE MIT；与提交 zip 内容一致）
-- 🚀 **2origin** `b68f4c1` 部署配置修复：vercel.json 去掉非法 rootDirectory 字段（构建改由项目设置承接），website 部署级静态配置，忽略 .vercel/.env.local
+- 🚀 **2origin-harness** `f80f7ca` REPORT: 状态更新为 v6 GO（六轮终审记录）
+- 🚀 **2origin-harness** `fcd5992` C1 v6：gpt 五轮整改——root 隔离断言改为执行前基线快照(存在性+Buffer.equals)
+- 🚀 **2origin-harness** `3536dfe` C1 v5：gpt 四轮整改——--root 端到端生效(workRoot 判定+南桥实例)+普通分支 exit 条件(done+audit_ok)+E2E 加 root 隔离断言
+- 🚀 **2origin** `dc185a0` 推广资产落地：90秒终端实录GIF(0.3MB真实输出,白底深蓝)嵌入README + 生成脚本入scripts/ + V2EX首发草稿
+- 🚀 **2origin** `f538a25` README 快速上手补 npm 安装方式（benxiang-origin@0.1.0 已发布）
+- 🚀 **2origin** `2d69c68` bin 改名：origin→benxiang、origin-mcp→benxiang-mcp（避开 npm 已有 origin 包的全局命令冲突；gpt+pi 会审一致），帮助文本同步
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-26 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-27 · 写稿规则见 AGENTS.md_
