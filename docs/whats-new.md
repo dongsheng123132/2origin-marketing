@@ -1,4 +1,4 @@
-# What's New · 2026-08-30
+# What's New · 2026-08-31
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -28,4 +28,4 @@
 - 🚀 **2origin** `aaf5f64` code-agentteams-standalone: R8 双 GO 定稿 v18 (50/50 判据, 并发原子写入, E1b-E1e, A1-A8)
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-08-30 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-08-31 · 写稿规则见 AGENTS.md_
