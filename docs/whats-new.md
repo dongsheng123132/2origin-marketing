@@ -1,4 +1,4 @@
-# What's New · 2026-09-03
+# What's New · 2026-09-04
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -28,4 +28,4 @@
 - 🚀 **2origin** `28fe797` website: 清理自动部署实测用的触发文件
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-09-03 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-09-04 · 写稿规则见 AGENTS.md_
