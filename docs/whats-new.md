@@ -1,4 +1,4 @@
-# What's New · 2026-09-08
+# What's New · 2026-09-09
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -28,4 +28,4 @@
 - 🚀 **2origin** `0834c54` story: 补录月落渡口 ch15/ch16 状态账本（M1 提交漏 add）
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-09-08 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-09-09 · 写稿规则见 AGENTS.md_
