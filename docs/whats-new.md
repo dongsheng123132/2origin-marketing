@@ -1,4 +1,4 @@
-# What's New · 2026-09-11
+# What's New · 2026-09-12
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -28,4 +28,4 @@
 - 🚀 **2origin** `2c0b9b0` story: 月落渡口边界声明定稿——三条 limits（约束只信声明态/CED词表未集外验证/导入史≠观察史）+ 生成器入库
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-09-11 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-09-12 · 写稿规则见 AGENTS.md_
