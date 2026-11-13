@@ -1,4 +1,4 @@
-# What's New · 2026-11-12
+# What's New · 2026-11-13
 
 > 数据源：GitHub API（远程），**仅公开仓库**　✅=已写过草稿　🚀=可写
 
@@ -29,4 +29,4 @@
 - 🚀 **2origin** `7376445` docs: add author attribution 贺去病(贺方升/Dosen) hequbing.com
 
 ---
-_由 refresh-notes.mjs 生成 · 2026-11-12 · 写稿规则见 AGENTS.md_
+_由 refresh-notes.mjs 生成 · 2026-11-13 · 写稿规则见 AGENTS.md_
